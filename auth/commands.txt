@@ -1,0 +1,5 @@
+npm install -g typescript
+npm install ts-node-dev@latest ts-node@latest
+npm install cookie-session @types/cookie-session
+npm install jsonwebtoken @types/jsonwebtoken
+kubectl create secret generic jwt-secret --from-literal=JWT_KEY=asdf
